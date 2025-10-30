@@ -1,6 +1,13 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+.checkbox {
+  float: left;
+}
+
+#players p {
+  margin: 2px;
+}
+
+div {
+  width: 500px;
 }
 
 table {

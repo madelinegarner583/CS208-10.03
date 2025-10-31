@@ -11,7 +11,7 @@
 
 <body>
   <div>
-    <form method="GET" action="https://grim-apparition-jjwp9pjppx4g35x9j-8080.app.github.dev/?" id="form-lineup">
+    <form method="POST" action="https://grim-apparition-jjwp9pjppx4g35x9j-8080.app.github.dev/?" id="form-lineup">
       <h1>Starting Lineup</h1>
 
       <fieldset>
@@ -34,29 +34,29 @@
         </select>
       </p>
 
+      <!-- I put each player's label and checkbox in a different p element to style it in css similar to the example form -->
       <fieldset id="players">
         <legend>Players:</legend>
-
-        <p>
-          <label for="aarav">Aarav Agarwal</label>
-          <input type="checkbox" name="aarav" id="aarav" class="checkbox">
-        </p>
-        <p>
-          <label for="ava">Ava Johnson</label>
-          <input type="checkbox" name="ava" id="ava" class="checkbox">
-        </p>
-        <p>
-          <label for="julio">Julio Ortiz</label>
-          <input type="checkbox" name="julio" id="julio" class="checkbox">
-        </p>
-        <p>
-          <label for="liam">Liam Rubio</label>
-          <input type="checkbox" name="liam" id="liam" class="checkbox">
-        </p>
-        <p>
-          <label for="emma">Emma Witherspoon</label>
-          <input type="checkbox" name="emma" id="emma" class="checkbox">
-        </p>
+          <p>
+            <label for="aarav">Aarav Agarwal</label>
+            <input type="checkbox" name="players" value="Aarav Agarwal" id="aarav" class="checkbox">
+          </p>
+          <p>
+            <label for="ava">Ava Johnson</label>
+            <input type="checkbox" name="players" value="Ava Johnson" id="ava" class="checkbox">
+          </p>
+          <p>
+            <label for="julio">Julio Ortiz</label>
+            <input type="checkbox" name="players" value="Julio Ortiz" id="julio" class="checkbox">
+          </p>
+          <p>
+            <label for="liam">Liam Rubio</label>
+            <input type="checkbox" name="players" value="Liam Rubio" id="liam" class="checkbox">
+          </p>
+          <p>
+            <label for="emma">Emma Witherspoon</label>
+            <input type="checkbox" name="players" value="Emma Witherspoon" id="emma" class="checkbox">
+          </p>
       </fieldset>
 
       <p>
